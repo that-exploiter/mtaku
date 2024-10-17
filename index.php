@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perks of Our Service</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
 <p>With your own license key, you can enjoy personalized access to our services. Sign up now to receive your unique key and unlock premium features!</p>
 
 <footer>
-    <p>&copy; 2024 Our Service | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    <p>&copy; <?php echo date("Y"); ?> Our Service | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
 </footer>
 
 </body>
